@@ -5,7 +5,7 @@ $ docker run -p 5432:5432 -e POSTGRES_PASSWORD=pwd -e POSTGRES_USER=usr -e POSTG
 
 # starting the application
 
-You will need to create a `sqreen.json` file first (see (https://my.sqreen.io)[https://my.sqreen.io]).
+You will need to create a `sqreen.json` file first (see [https://my.sqreen.io](https://my.sqreen.io)).
 
 ```bash
 PGUSER=usr PGHOST=localhost PGPASSWORD=pwd PGDATABASE=db PGPORT=5432 node server.js
